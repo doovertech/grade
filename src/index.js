@@ -61,11 +61,11 @@ class Grade {
         const val = this.getRGBAGradientValues(top);
         return prefixes.map(prefix => {
             return `background-image: -${prefix}-linear-gradient(
-                        135deg,
+                        101deg,
                         ${val}
                     )`
         }).concat([`background-image: linear-gradient(
-                    135deg,
+                    101deg,
                     ${val}
                 )`]).join(';')
     }
