@@ -53,7 +53,7 @@ class Grade {
 
     getRGBAGradientValues(top) {
         return top.map((color, index) => {
-            return `rgba(${color.rgba.slice(0, 3).join(',')},.5) ${index == 0 ? '0%' : '75%'}`
+            return `rgba(${color.rgba.slice(0, 3).join(',')},.5) ${index == 0 ? '0%' : '100%'}`
         }).join(',')
     }
 
