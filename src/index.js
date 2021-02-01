@@ -152,9 +152,7 @@ class Grade {
         this.canvas.width = this.imageDimensions.width;
         this.canvas.height = this.imageDimensions.height;
         this.ctx.drawImage(this.image, 0, 0, this.imageDimensions.width, this.imageDimensions.height);
-        if(this.imageDimensions.width && this.imageDimensions.height){
-           this.getImageData();
-        }
+        this.getImageData();
         this.renderGradient();
     }
 }
